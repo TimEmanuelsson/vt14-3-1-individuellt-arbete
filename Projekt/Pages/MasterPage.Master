@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Projekt.Pages.MasterPage" ViewStateMode="Disabled" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="headContentPlaceHolder" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1 id="Header">CDON's Musiksamling</h1>
+        </header>
+    <div id="Main">
+        <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server" />
+    </div>
+    </form>
+</body>
+</html>
